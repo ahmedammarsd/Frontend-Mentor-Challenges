@@ -120,6 +120,33 @@ const RecipePage = () => {
           </div>
           {/* Section Four Instructions */}
           <hr />
+          {/* Section Four Nutrition */}
+          <div className="container-nutrition">
+            <h2>Nutrition</h2>
+            <p>
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+            <table>
+              <tr className="tr">
+                <td> Calories</td>
+                <td className="table-td">277kcal</td>
+              </tr>
+              <tr className="tr">
+                <td> Carbs</td>
+                <td className="table-td">0g</td>
+              </tr>
+              <tr>
+                <td> Protein</td>
+                <td className="table-td">20g</td>
+              </tr>
+              <tr>
+                <td> Fat</td>
+                <td className="table-td">22g</td>
+              </tr>
+            </table>
+          </div>
+          {/* Section Four Nutrition */}
         </div>
       </div>
     </div>
