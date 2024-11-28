@@ -12,7 +12,7 @@ function App() {
   }, []);
   return (
     <>
-      <Link to={"/recipe_page"}>to</Link>
+      {/* <Link to={"/recipe_page"}>to</Link> */}
       <Routes>
         <Route path="/recipe_page" element={<RecipePage />} />
       </Routes>
