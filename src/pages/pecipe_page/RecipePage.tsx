@@ -1,4 +1,5 @@
 import "./style.css";
+import image from "../../assets/recipe-page-main-images/image-omelette.jpeg";
 const RecipePage = () => {
   document.title = "Frontend Mentor | Recipe page";
   return (
@@ -6,7 +7,7 @@ const RecipePage = () => {
       <div className="container-recipe">
         {/* Image Container */}
         <div className="img-container-recipe">
-          <img src="../../../files_downloads_from_website/recipe-page-main/assets/images/image-omelette.jpeg" />
+          <img src={image} />
         </div>
         {/* Image Container */}
         <div className="content-recipe">
